@@ -1,0 +1,75 @@
+/* Author : Midhun Roy 
+Time : 11:30 pm*/
+* {
+	font-family: Open-Sans, Sans-serif;
+}
+.first_bg {
+	background-image: url("../images/background/agency-slider-04.jpg");
+}
+.del_fs {
+	font-size: 60px;
+}
+.car_icon {
+	width: 10px !important;
+	height: 10px !important;
+	border-radius: 100%;
+}
+.wid {
+	width: 100%;
+}
+.bgsec {
+	background-color: #f1eccf;
+}
+.second_bg {
+	background-image: url("../images/background/restaurant-menu-bg.jpg");
+	background-size: cover;
+}
+.third_bg {
+	background-image: url("../images/background/hero-bg9.jpg");
+	background-size: cover;
+}
+.gustave {
+	font-family: "Homemade Apple", cursive;
+}
+.third_transparent_bg {
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6);
+}
+.carts_transparent_bg {
+	width: 60%;
+	height: 60%;
+	background: rgba(0, 0, 0, 0.6);
+}
+.fourth_bg {
+	background-image: url("../images/background/fitness-about-bg.jpg");
+	background-size: cover;
+}
+.fifth_bg {
+	background-image: url("../images/background/hero-bg3.jpg");
+	background-size: cover;
+}
+.round_icon {
+	opacity: 0.5;
+}
+.brown_txt {
+	color: rgb(96, 21, 21);
+}
+.svg-color {
+	color: #fff;
+}
+
+@media screen and (max-width: 576px) {
+	.second_bg {
+		background-image: none;
+	}
+	.del_fs {
+		font-size: 40px;
+	}
+	.nav_opac {
+		background: rgba(0, 0, 0, 0.6);
+	}
+	.carts {
+		display: none;
+	}
+}
